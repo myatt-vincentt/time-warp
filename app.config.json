@@ -1,9 +1,10 @@
 {
-  "title": "XR App - Vincentt",
-  "description": "An AR experience built with Vincentt",
+  "title": "Time Warp",
+  "description": "Bend your camera through time: a live time warp, or a scan line that freezes you as it passes",
   "image": "/images/og-default.jpg",
-  "imageAlt": "Vincentt — Augmented Reality App builder",
+  "imageAlt": "Time Warp — a camera experience built with Vincentt",
   "imageWidth": 1200,
   "imageHeight": 630,
-  "imageType": "image/jpeg"
+  "imageType": "image/jpeg",
+  "url": "https://time-warp.vincentt.app"
 }

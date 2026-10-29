@@ -1,3 +1,26 @@
+# Time Warp
+
+Your camera picture bent through time. In Live, every part of the screen shows a different moment
+of the last three seconds: top to bottom, left to right, or from the centre out, so anything that
+moves smears and bends. In Scan, a glowing line sweeps down (or across) the screen and freezes
+everything it passes while the rest stays live: move with the line to stretch your face, clone
+your hands or make funny shapes, and the finished picture holds until you tap to clear. The
+picture fills the whole screen.
+
+- The picture: `src/warp/WarpLayers.tsx`. A ring of the last ~3 s of frames, kept small in a
+  texture array (90 frames on a computer, 72 on a phone), and the frozen picture for the scan.
+- The timing: `history.sim.ts` (which stored frame is "n frames ago"), `scan.sim.ts` (the scan's
+  timeline), `tween.sim.ts` (eased shape changes), all unit-tested.
+- The controls (`Controls.tsx`), on Night glass in the bottom band: a Live | Scan switch; in Live,
+  the three shape chips with a short caption; in Scan, the big scan button with the direction
+  chips (down / across) beside it.
+- `src/App.tsx` uses a full-window container instead of the 9:16 frame; re-apply after a template
+  upgrade.
+- Dev preview without a camera: the media switcher starts on the SDK's sample video. Dev keys: 1–3
+  pick a live shape, L live, S scan (start / clear), D direction.
+
+---
+
 # v2-template
 
 The Vincentt starter app: a real React + R3F + Vincentt XR SDK (`@vincentt-xr/sdk`)

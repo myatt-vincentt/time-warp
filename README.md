@@ -7,6 +7,7 @@ everything it passes while the rest stays live: move with the line to stretch yo
 your hands or make funny shapes, and the finished picture holds until you tap to clear. The
 picture fills the whole screen.
 
+- Thumbnail: `public/images/time-warp-thumbnail.jpg` (the share image).
 - The picture: `src/warp/WarpLayers.tsx`. A ring of the last ~3 s of frames, kept small in a
   texture array (90 frames on a computer, 72 on a phone), and the frozen picture for the scan.
 - The timing: `history.sim.ts` (which stored frame is "n frames ago"), `scan.sim.ts` (the scan's

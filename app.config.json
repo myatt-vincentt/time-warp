@@ -1,10 +1,10 @@
 {
   "title": "Time Warp",
   "description": "Bend your camera through time: a live time warp, or a scan line that freezes you as it passes",
-  "image": "/images/og-default.jpg",
+  "image": "/images/time-warp-thumbnail.jpg",
   "imageAlt": "Time Warp — a camera experience built with Vincentt",
-  "imageWidth": 1200,
-  "imageHeight": 630,
+  "imageWidth": 941,
+  "imageHeight": 1672,
   "imageType": "image/jpeg",
   "url": "https://time-warp.vincentt.app"
 }
